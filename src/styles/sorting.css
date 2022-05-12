@@ -1,0 +1,30 @@
+body {
+  background: radial-gradient(
+    circle,
+    rgb(255 234 243) 53%,
+    rgb(240 220 255) 100%
+  );
+}
+
+.data {
+  width: 10%;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(143deg, #ffb6d4 0%, #c6a4dd 100%);
+  margin: 0 1px;
+  border-radius: 3px 3px 0 0;
+}
+.current {
+  border-color: #ff8888;
+  background: hsla(0, 100%, 66%, 0.569);
+}
+.target {
+  background: rgba(121, 6, 175, 0.904);
+}
+button {
+  padding: 5px 20px;
+  border: solid 1px rgb(46 46 46);
+  color: #efefef;
+  background: #1a1919;
+  cursor: pointer;
+  border-radius: 5px;
+}

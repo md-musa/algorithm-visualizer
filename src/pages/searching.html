@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binary search</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/7b5886330e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer type="module" src="../scripts/searching/index.js"></script>
+    <link rel="stylesheet" href="../styles/binarySearch.css" />
+  </head>
+  <body class="">
+    <nav class=""></nav>
+
+    <main class="border1" style="display: flex; height: 80vh">
+      <section class="sidebar border2" style="width: 20%; padding: 10px">
+        <button id="random-arr" style="margin: 5px">Random Array</button><br />
+        <input
+          type="number"
+          name=""
+          id="target"
+          style="margin: 5px"
+          required
+        /><br />
+
+        <input type="radio" name="searching" id="linier-search" checked />Linier
+        search<br />
+        <input type="radio" name="searching" id="binary-search" />Binary
+        search<br />
+        <br />
+        <input
+          type="number"
+          placeholder=""
+          value="1000"
+          step="100"
+          min="200"
+          name=""
+          id="step-time"
+        />
+        milliseconds
+        <br />
+        <button id="start-visualizing" class="start">Start</button>
+      </section>
+      <section
+        class="border"
+        style="
+          width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <div
+          id="elements-container"
+          style="
+            height: 65px;
+            position: relative;
+            display: flex;
+            width: 100%;
+            padding: 5px 10px;
+          "
+        >
+          <!-- .------  -->
+        </div>
+      </section>
+    </main>
+    <br />
+
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

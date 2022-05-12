@@ -1,0 +1,46 @@
+nav {
+  height: 50px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/* .border1 {
+  border: solid 3px rebeccapurple;
+}
+.border2 {
+  border: solid 3px sienna;
+} */
+.boxBf {
+  border: solid 2px #d3d3d5;
+  width: 5%;
+  border-radius: 44%;
+  height: 77%;
+  margin: 5px;
+  font-weight: 500;
+  text-align: center;
+}
+.box {
+  outline: none;
+}
+.box::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f062";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+  position: absolute;
+  top: 51px;
+  margin: 2px;
+  color: #ffa639d1;
+}
+
+.border-mark {
+  border: solid 2px sandybrown;
+}
+.border-target {
+  border: solid 2px #ffb3b3;
+  background: #ffe1e1;
+  color: tomato;
+}
